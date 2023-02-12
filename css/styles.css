@@ -1,0 +1,379 @@
+@import "../css/styles.css";
+.home .hero {
+  height: 500px;
+  max-width: 1280px;
+  background-image: url(../images/hero\ \(2\).jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.home .hero .homepage-text {
+  max-width: 717px;
+  max-height: 225px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 220px;
+  color: white;
+}
+.home .hero .learn-more {
+  padding: 5px 15px;
+  background-color: #79ADDC;
+  width: 121px;
+  color: white;
+  position: absolute;
+  top: 377px;
+  left: 590px;
+}
+
+.promo-trips {
+  margin-top: -50px;
+  min-height: 304px;
+  min-width: 817px;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+}
+.promo-trips .promo-images {
+  height: 304px;
+  width: 961px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-left: 150px;
+}
+.promo-trips .promo-images .image1 {
+  background-image: url(../images/tours/tour-01.jpg);
+  width: 236px;
+  height: 304px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.promo-trips .promo-images .image2 {
+  background-image: url(../images/tours/tour-02.jpg);
+  width: 236px;
+  height: 304px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.promo-trips .promo-images .image3 {
+  background-image: url(../images/tours/tour-03.jpg);
+  width: 236px;
+  height: 304px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.promo-trips .promo-images .text1, .promo-trips .promo-images .text2, .promo-trips .promo-images .text3 {
+  padding-top: 37px;
+}
+
+.message-box {
+  width: 818px;
+  height: 192px;
+  background-color: transparent;
+  text-align: center;
+  line-height: 50px;
+  text-align: left;
+  padding-left: 20px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding-bottom: 37px;
+}
+
+.booking {
+  min-height: 400px;
+  padding: 50px;
+}
+.booking .booking-wrapper {
+  max-width: 818px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.booking .adults-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+.booking .adults-wrapper .adults {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.booking .adults-wrapper .adult-box {
+  width: 103px;
+  height: 58px;
+  background-color: transparent;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 31px;
+  text-align: left;
+  padding-left: 20px;
+  border: 1px solid black;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.booking .adults-wrapper .children {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.booking .adults-wrapper .children-box {
+  width: 103px;
+  height: 58px;
+  background-color: transparent;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 31px;
+  text-align: left;
+  padding-left: 20px;
+  border: 1px solid black;
+}
+.booking .adults-wrapper .rooms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.booking .adults-wrapper .rooms-box {
+  width: 103px;
+  height: 58px;
+  background-color: transparent;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 31px;
+  text-align: left;
+  padding-left: 20px;
+  border: 1px solid black;
+}
+.booking .bookingline1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.booking .bookingline1 .enter-box {
+  width: 344px;
+  height: 58px;
+  background-color: transparent;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 31px;
+  text-align: left;
+  padding-left: 20px;
+  border: 1px solid black;
+}
+.booking .bookingline1 .email {
+  width: 453px;
+  height: 58px;
+  background-color: transparent;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 31px;
+  text-align: left;
+  padding-left: 20px;
+  border: 1px solid black;
+}
+.booking .check-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.booking .check-in p {
+  margin-top: 55px;
+}
+.booking .date-box {
+  width: 730px;
+  height: 58px;
+  background-color: transparent;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 31px;
+  text-align: left;
+  padding-left: 20px;
+  border: 1px solid black;
+}
+.booking .submit-button {
+  display: block;
+  margin: 20px auto 0 auto;
+  background-color: #79ADDC;
+  color: white;
+  height: 60px;
+  width: 818px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.site-container {
+  max-width: 1280px;
+  margin: 0 auto 0;
+  min-height: 500px;
+}
+
+nav {
+  position: fixed;
+  height: 90px;
+  width: 70%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logos/logo-white.png);
+}
+nav .links {
+  height: 42px;
+  width: 490px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer {
+  background-color: #79ADDC;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  width: 1280px;
+  padding: 0 20px;
+}
+footer .footer-logo {
+  width: 136px;
+  height: 60px;
+  background-image: url(../images/logos/logo-white.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 20px;
+}
+footer .footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+footer .footer-link {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+footer .facebook {
+  height: 22.96px;
+  width: 22.96px;
+  background-image: url(../images/logos/facebooklogo.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+footer .instagram {
+  height: 22.96px;
+  width: 22.96px;
+  background-image: url(../images/logos/instagramlogo.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+footer .twitter {
+  height: 22.96px;
+  width: 22.96px;
+  background-image: url(../images/logos/twitterlogo.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
